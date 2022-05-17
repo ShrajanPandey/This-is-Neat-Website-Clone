@@ -1,0 +1,204 @@
+body{
+    margin:0 0;
+    padding:0;
+    background: #33a1fd;
+    scroll-behavior: smooth;
+}
+
+#p1{
+    background: #33a1fd;
+}
+
+#not{
+    font-family: 'PT Sans Caption', sans-serif;
+    color: rgb(255, 255, 255,90%); 
+    font-size: .8rem; 
+    background: #3778b9b6;
+    padding: 8px 30px;
+    /* padding-left: 20; */
+}
+
+#top{
+    /* width: 100%;
+    height: 1; */
+ 
+    font-family:'Times New Roman', Times, serif;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    color: white;
+    font-family: 'Anek Malayalam', sans-serif;
+    background-image: url("svgexport-1 (1).svg");
+    background-repeat:no-repeat;
+    padding: 60px;
+    /* background-color: transparent; */
+    background-size:cover;
+    object-fit: contain;
+    
+
+}
+
+#mid{
+    object-fit: contain;
+}
+
+.navList{
+    background-color: #33a1fd;
+    font-family: 'Anek Malayalam', sans-serif;
+    font-size:14px;
+    color:white;
+    /* font-weight:bold; */
+    /* font-weight: 50; */
+    list-style-type:none;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+#navButton{
+    font-family: 'Anek Malayalam', sans-serif;
+    font-size:14px;
+    /* font-weight:bold; */
+    color: white;
+    background:none;
+    text-decoration:none;
+    border:2px solid white;
+    border-radius: 23px;
+    padding: 10px 30px;
+}
+
+.logo{
+    margin-left: 0;;
+    color:white;
+    font-family: 'Rubik Beastly', cursive;
+    font-style:italic;
+    font-weight:bold;
+    font-size:30px;
+    font-size: 3em;
+} 
+
+
+.second{
+    background-color: white;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+}
+
+.op{
+    display: flex;
+    justify-content: center;
+}
+
+.service{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.option{
+    max-width: 26.33%;
+    max-height: 33.33;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* margin-left: 20px; */
+    margin-bottom: 40px;
+    margin-top:0;
+    padding :0;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+    border: 0em solid white;
+    border-radius: 0.7em;
+    overflow: hidden;
+    font-family: Nunito Sans,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 2.125rem;
+    color: rgb(170, 161, 161);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.option li:last-child{
+    text-align: bottom;
+    color: #33a1fd;
+}
+
+.s1{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    padding: 0;
+}
+
+#intor1{
+    padding: 50px;
+    color: grey;
+}
+
+#third{
+    background-color: white;
+    max-width: 100%;
+    /* height: 1000px; */
+    padding: 60px;
+    text-align: center;
+}
+
+.footer{
+    padding-top: 90px;
+    max-width: 100%;
+    /* height: 100px; */
+    background-color: rgb(51, 40, 40);
+    color: rgba(255, 255, 255, 0.829);
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+
+.foot{
+    display: flex;
+    /* align-items:; */
+    justify-content: space-between;
+    /* padding-left: ; */
+}
+
+.foo{
+    background-color: rgb(51, 40, 40);
+    color: rgba(255, 255, 255, 0.829);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-top: 50px;
+}
+
+.t{
+
+    height:12 vh;
+    background-color: rgb(51, 40, 40);
+    color: rgba(255, 255, 255, 0.829);
+}
+
+.temp{
+    background-color: rgb(36, 23, 23);
+    margin: 0;
+    padding: 10px;
+    list-style:none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
